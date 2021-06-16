@@ -1,6 +1,7 @@
 #!/bin/bash
 ###############################################################################
-## 17 panaroo_find_differences_in_clone
+#9 WGS-alignment-mugsy
+# add -z option to keep the intermediate files
 ###############################################################################
 ## note: 
     #echo "provide the list of clone_id and respective isolates_id\n the list should be serial starting from 1 "
