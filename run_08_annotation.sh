@@ -7,7 +7,7 @@ echo "started... step-08 annotation -------------------------------------------"
     source /home/swapnil/miniconda3/etc/profile.d/conda.sh
     conda activate myenv
     echo "okay"
-    echo "1 2 3 "
+    cp $file
     echo "provide list file (for e.g. all)"
     echo "---------------------------------------------------------------------"
     ls list.*.txt | awk -F'.' '{print $2}'
