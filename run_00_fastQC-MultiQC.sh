@@ -1,7 +1,7 @@
 ## Note: fastqc also work with nanopore
 ###############################################################################
 ## run fastq and multiQC
-
+    echo 123
     echo "provide list file (for e.g. all)"
     echo "---------------------------------------------------------------------"
     ls list.*.txt | sed 's/ /\n/g'
