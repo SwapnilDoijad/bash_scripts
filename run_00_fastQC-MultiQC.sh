@@ -8,7 +8,7 @@
     echo "---------------------------------------------------------------------"
     read l
     list=$(echo "list.$l.txt")
-
+    echo test
     echo "Full raw read path? (for e.g. /media/swapnil/network/reads_database/p_Entb_Germany)"
     read path
 
